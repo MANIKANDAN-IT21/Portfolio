@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+header ul li {
+  @apply px-6;
+}
+.backgrd {
+  background-color: rgb(91, 10, 241);
+}
+.backgrdsecondary {
+  background-color: rgb(91, 10, 241);
+}
+.backgrdsec {
+  background-color: rgb(48, 10, 119);
+}
+.mbbar {
+  @apply fixed top-6  left-0 w-full h-fit;
+
+  background-color: rgb(92, 167, 238);
+}
+.mbbar li {
+  @apply w-full h-full text-center border-b-2;
+}
+.opacity {
+  @apply absolute left-0 right-0 bottom-0 top-0 backgrdsec opacity-0 duration-500 hover:opacity-100;
+}
+.btn {
+  @apply backgrdsecondary py-5 px-5 font-bold  hover:border-2 border-white rounded;
+}
+.logo{
+  padding-top: 1.12rem;
+}
+html {
+  scroll-behavior: smooth;
+}
